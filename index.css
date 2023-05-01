@@ -1,0 +1,146 @@
+body {
+  padding: 20px 30px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid #000;
+  padding: 1%;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  list-style: none;
+}
+
+#list,
+#add-new {
+  border-right: 2px solid #000;
+  padding-right: 25px;
+}
+
+.active {
+  color: #00f;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 60px;
+}
+
+#book-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+  align-items: flex-end;
+  margin-left: 50%;
+}
+
+#book-form,
+h2 {
+  text-align: center;
+  margin-right: 2em;
+}
+
+#book-list {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  background: white;
+  text-align: center;
+}
+
+#author {
+  margin-top: 1em;
+}
+
+.addbtn {
+  margin-top: 1em;
+  border: 2px solid black;
+  height: 30px;
+  width: 100px;
+  font-size: 18px;
+}
+
+.flexing {
+  font-weight: bold;
+  font-size: 22px;
+  display: flex;
+  gap: 5px;
+  background: #c5c5c5;
+  margin-top: 20px;
+}
+
+.deleteBook {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 30px;
+  border: 1px solid black;
+  border: none;
+}
+
+.centers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.removeButton {
+  font-size: 20px;
+  padding: 10px 20px;
+  border: 3px solid black;
+}
+
+input {
+  border: 2px solid black;
+  height: 38px;
+  font-size: 20px;
+}
+
+.warning {
+  background: rgb(227, 172, 172);
+}
+
+#date {
+  float: right;
+  padding-right: 1%;
+  margin-bottom: 24px;
+}
+
+.add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  font-size: 25px;
+}
+
+footer {
+  display: flex;
+  border: 2px solid #000;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 400px;
+  gap: 20px;
+  width: 100%;
+  bottom: 0;
+  padding: 5px;
+}
